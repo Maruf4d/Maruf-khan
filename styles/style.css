@@ -3,7 +3,7 @@ body{
     font-weight: 700;
     font-style: normal;  
 }
-.main-header{
+header{
     margin: 50px 60px 60px 50px;
 }
 
@@ -34,13 +34,45 @@ nav li a {
 img{
     margin-left: 8px;
   }
-  /* head container style */
-  .head-title{
-      width: 800px;
+  /* scend-section style */
+  .camera{
+    background-image: url('../images/Circle\ design.svg');
   }
-  .scend-head{
+
+  .head-title{
+        width: 800px;
+        color: #3A3A3A;
+        font-size: 52px;
+  }
+  .scend-section{
     display: flex;
+    margin-top: 140px;
   }
   .head-container{
     align-items: center;
+  }
+  .section-pera{
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+    width: 75%;
+    margin-top: -35px;
+  }
+  #btn{
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 41px;
+    background: #E02C6D;
+    border: 0px;
+    text-align: center;
+    width: 19%;
+    height: 8%;
+    margin-top: 15px;
+  }
+
+.icon-img{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
   }
