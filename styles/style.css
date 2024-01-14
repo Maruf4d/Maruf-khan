@@ -3,12 +3,15 @@ body{
     font-weight: 700;
     font-style: normal;  
 }
+.main-header{
+    margin: 50px 60px 60px 50px;
+}
 
 
-/* Nav style */
+/* Nav style
 .nav-container{
    margin: 50px 60px 60px 50px;
-}
+} */
 
 nav{
     display: flex;
@@ -28,6 +31,16 @@ nav li a {
 }
 .nav-title{}
 
-.photo{
-  margin-left: 8px;
-}
+img{
+    margin-left: 8px;
+  }
+  /* head container style */
+  .head-title{
+      width: 800px;
+  }
+  .scend-head{
+    display: flex;
+  }
+  .head-container{
+    align-items: center;
+  }
