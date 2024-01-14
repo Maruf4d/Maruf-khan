@@ -1,0 +1,33 @@
+body{
+    font-family: "Poppins";
+    font-weight: 700;
+    font-style: normal;  
+}
+
+
+/* Nav style */
+.nav-container{
+   margin: 50px 60px 60px 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav ul {
+    display: flex;
+}
+nav li{
+    list-style: none;
+}
+nav li a {
+    text-decoration: none;
+    margin-left: 20px;
+}
+.nav-title{}
+
+.photo{
+  margin-left: 8px;
+}
